@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Splash Screen Animation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuD-o8-HLc">
+                                <rect key="frame" x="179" y="67" width="308" height="25"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="308" id="sgu-Wv-B7F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.43222224341392357" blue="0.59581343920675489" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="sgu-Wv-B7F"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="sgu-Wv-B7F"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fNl-Nu-I0f">
+                                <rect key="frame" x="0.0" y="187" width="600" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="S1" translatesAutoresizingMaskIntoConstraints="NO" id="TJ8-zV-CgR">
+                                        <rect key="frame" x="0.0" y="16" width="94" height="95"/>
+                                        <animations/>
+                                        <variation key="widthClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="13" y="17" width="94" height="95"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="P" translatesAutoresizingMaskIntoConstraints="NO" id="9Rg-pt-dJR">
+                                        <rect key="frame" x="102" y="24" width="75" height="80"/>
+                                        <animations/>
+                                        <variation key="widthClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="145" y="25" width="75" height="80"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="L" translatesAutoresizingMaskIntoConstraints="NO" id="3Y1-H5-gxW">
+                                        <rect key="frame" x="206" y="24" width="75" height="80"/>
+                                        <animations/>
+                                        <variation key="widthClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="277" y="24" width="75" height="80"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A" translatesAutoresizingMaskIntoConstraints="NO" id="D8b-9I-QLM">
+                                        <rect key="frame" x="308" y="24" width="75" height="80"/>
+                                        <animations/>
+                                        <variation key="widthClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="413" y="25" width="75" height="80"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="H" translatesAutoresizingMaskIntoConstraints="NO" id="zXy-Jc-6Qu">
+                                        <rect key="frame" x="512" y="24" width="75" height="80"/>
+                                        <animations/>
+                                        <variation key="widthClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="695" y="25" width="75" height="80"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="S2" translatesAutoresizingMaskIntoConstraints="NO" id="QYG-SY-wXA">
+                                        <rect key="frame" x="404" y="19" width="86" height="92"/>
+                                        <animations/>
+                                        <variation key="widthClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="558" y="19" width="86" height="92"/>
+                                        </variation>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="800" id="srf-fn-qTw"/>
+                                    <constraint firstAttribute="height" constant="128" id="y1F-8N-Bpd"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="srf-fn-qTw"/>
+                                        <exclude reference="y1F-8N-Bpd"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="srf-fn-qTw"/>
+                                        <include reference="y1F-8N-Bpd"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RuD-o8-HLc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="H3D-Mo-Aq4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fNl-Nu-I0f" secondAttribute="trailing" constant="-20" id="Kse-3p-tRr"/>
+                            <constraint firstItem="fNl-Nu-I0f" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="167" id="RP3-7S-dlX"/>
+                            <constraint firstItem="fNl-Nu-I0f" firstAttribute="top" secondItem="RuD-o8-HLc" secondAttribute="bottom" constant="92" id="T6k-qn-xtK"/>
+                            <constraint firstItem="RuD-o8-HLc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bYr-8f-uzx"/>
+                            <constraint firstItem="fNl-Nu-I0f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="k9N-cn-Qb8"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="RP3-7S-dlX"/>
+                                <exclude reference="T6k-qn-xtK"/>
+                                <exclude reference="H3D-Mo-Aq4"/>
+                                <exclude reference="bYr-8f-uzx"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="RP3-7S-dlX"/>
+                                <include reference="T6k-qn-xtK"/>
+                                <include reference="H3D-Mo-Aq4"/>
+                                <include reference="bYr-8f-uzx"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="A" destination="D8b-9I-QLM" id="5dP-Rp-LQf"/>
+                        <outlet property="H" destination="zXy-Jc-6Qu" id="WmS-Bj-bsY"/>
+                        <outlet property="L" destination="3Y1-H5-gxW" id="xhq-nR-Inq"/>
+                        <outlet property="P" destination="9Rg-pt-dJR" id="kAN-Zw-XfL"/>
+                        <outlet property="S1" destination="TJ8-zV-CgR" id="Gau-Rj-gIe"/>
+                        <outlet property="S2" destination="QYG-SY-wXA" id="fdY-oW-1Ro"/>
+                        <outlet property="animateVIew" destination="fNl-Nu-I0f" id="EvX-Kc-kHs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="369" y="365"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="A" width="512" height="512"/>
+        <image name="H" width="512" height="512"/>
+        <image name="L" width="512" height="512"/>
+        <image name="P" width="512" height="512"/>
+        <image name="S1" width="512" height="512"/>
+        <image name="S2" width="512" height="512"/>
+    </resources>
+</document>
